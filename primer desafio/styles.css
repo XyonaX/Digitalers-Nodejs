@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.titulo h2 {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0 0 0 8px;
+}
+
+.titulo a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto 16px 2px ;
+    color: #3483fa;
+}
+
+.items {
+    display: flex;
+    height: 415px;
+    margin-bottom: -88px;
+    gap: 10px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 224px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.img-container1 {
+    display: flex;
+    align-items: center;
+    background-color: #dadada;
+    justify-content: center;
+    border-radius: 4px;
+    width: 224px;
+    height: 224px;
+    
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 224px;
+    height: 224px;
+    
+}
+
+.img-container1 img {
+    width: 184px;
+    height: 184px;
+    border-radius: 4px;
+    box-shadow: 0 -1px 30px 0 rgba(0,0,0,.2), 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+.img-container img {
+    width: 184px;
+    height: 184px;
+    border-radius: 4px;
+}
+
+.card-content{
+    padding: 12px 16px;
+}
+
+.card-item-price span{
+    line-height: 1em;
+    font-size: 24px;
+    color: #333;
+}
+
+.envio-gratis p{
+    color: #00a650;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 8px 0 0;
+}
+
+.card-item:hover{
+    cursor: pointer;
+}
